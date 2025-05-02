@@ -1,44 +1,44 @@
-# 🧲 MVP & Full-Feature JavaScript Calculator
+# MVP & Full-Feature JavaScript Calculator
 
-This repository contains two JavaScript-based calculator implementations:
+This repository contains two JavaScript-based calculator implementations,
+the MVP Calculator is as per the GA SEB5 DOM-Events Assignment, and the enahnced version I've designed it to practice add more features to the MVP version.
 
 1. **MVP Calculator** – A minimal viable product version designed to demonstrate basic arithmetic operations.
 2. **Enhanced Calculator** – A fully functional, array-based calculator capable of handling chained operations with operator precedence.
 
-## 📌 Project Overview
+## Assignment Overview
 
 ### MVP Calculator
 
-The MVP version is a button-driven calculator that:
+The MVP version features:
 
 * Handles basic arithmetic: addition, subtraction, multiplication, and division.
 * Supports simple two-number operations (e.g., `4 + 5`).
 * Stores the result and allows further operations using the result.
 * Provides basic input validation and display formatting.
 
-> This version is suitable for demonstrating JavaScript event handling and DOM manipulation fundamentals.
+> This version is suitable uses DOM manipulation fundamentals.
 
 ---
 
-### Full-Feature Calculator
+### Enhanced Calculator
 
-The enhanced version introduces a more advanced operational model using an `allOperations` array to:
+The enhanced version introduces more advanced operational model using an Arrays to:
 
 * Track a full sequence of user-entered numbers and operators.
 * Dynamically build and display expressions like `1 + 2 * 3 / 4`.
-* Respect operator precedence using JavaScript’s built-in `eval()` method.
 * Handle repeated equals (`=`) presses with the ability to double the last result.
-* Provide robust clearing and error handling logic (e.g., dividing by zero).
+* Provide clearing and error handling logic (e.g., dividing by zero).
 
-> Designed as an exploratory extension to practice deeper JavaScript concepts like expression evaluation, array manipulation, and event-driven state handling.
+> Designed as an exploratory extension to practice deeper JavaScript concepts like expression evaluation, array manipulation, and handling events.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
-* **HTML5** – Layout and structure of calculator interfaces.
-* **CSS3** – Basic styling for visual structure and interaction.
-* **JavaScript (ES6)** – Core application logic and interaction handling.
+* **HTML** – Layout and structure of calculator interfaces.
+* **CSS** – Basic styling for visual structure and interaction.
+* **JavaScript** – Core application logic and interaction handling.
 
 ---
 
@@ -60,7 +60,7 @@ The enhanced version introduces a more advanced operational model using an `allO
 | --------------------------- | -------------- | ------------------- |
 | Basic Arithmetic Operations | ✅              | ✅                   |
 | Chained Operations          | ❌              | ✅                   |
-| Operator Precedence         | ❌              | ✅                   |
+| Operators Prioritization    | ❌              | ✅                   |
 | Input Validation            | Basic          | Advanced            |
 | Clear (C) Functionality     | ✅              | ✅                   |
 | Repeat Equals Behavior      | ❌              | ✅                   |
@@ -71,44 +71,32 @@ The enhanced version introduces a more advanced operational model using an `allO
 
 ## 📸 Screenshots
 
-> (Optional: Add screenshots or screen recordings of the calculator interfaces here.)
+![Screenshot](images/001.png)
 
 ---
 
-## ⚠️ Security Note
-
-The enhanced calculator uses JavaScript’s `eval()` function for evaluating expressions. While this approach is suitable for controlled environments and learning purposes, **it is not recommended for production applications** due to potential security risks if user input is not properly sanitized.
-
----
-
-## 🧠 Learning Goals
-
-This project helps reinforce key front-end development concepts:
+## Learning Goals
 
 * JavaScript event listeners
-* DOM traversal and manipulation
-* Array-based state management
-* Display formatting and UI feedback
-* Fundamental computational logic
+* DOM manipulation
+* Display formatting and UI feedback (CSS)
+* Array-Based computational logic
 
 ---
 
-## 📖 References
+## References
+
+Both MVP and Enhanced Calculators javascript codes has been written by myself, no reference to **AI generated codes** at all, I've refered to the below references from MDN and W3School only, 
+All comments written line by line extensivly for each line of code.
+
+The only part I've used AI-Generated content is for this **readme.md ** file content, I asked the GPT to provide me with the standard structure of the readme.md to remind of the **Markdown notations.** as I've used them previosuly.
+---
+
+## References
 
 * [MDN: eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 * [MDN: parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+* [MDN: slice()]([https://www.w3schools.com/cssref/css_selectors.asp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice))
 * [W3Schools: CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
-
----
-
-## 📄 License
-
-This project is open-source and free to use for educational and non-commercial purposes.
-
----
-
-## 🙌 Contributions
-
-Contributions are welcome. Please fork the repository, submit a pull request, or open an issue with suggestions or enhancements.
 
 ---
