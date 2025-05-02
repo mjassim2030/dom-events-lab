@@ -69,6 +69,9 @@ The enhanced version introduces more advanced operational model using an Arrays 
 
 ![Screenshot](Screenshot/001.png)
 
+![Screenshot](Screenshot/002.png)
+
+
 ---
 
 ## Learning Goals
