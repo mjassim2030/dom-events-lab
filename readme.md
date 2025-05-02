@@ -69,7 +69,7 @@ The enhanced version introduces more advanced operational model using an Arrays 
 
 ## 📸 Screenshots
 
-![Screenshot](images/001.png)
+![Screenshot](Screenshot/001.png)
 
 ---
 
