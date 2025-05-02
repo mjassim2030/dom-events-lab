@@ -30,8 +30,6 @@ The enhanced version introduces more advanced operational model using an Arrays 
 * Handle repeated equals (`=`) presses with the ability to double the last result.
 * Provide clearing and error handling logic (e.g., dividing by zero).
 
-> Designed as an exploratory extension to practice deeper JavaScript concepts like expression evaluation, array manipulation, and handling events.
-
 ---
 
 ## Tech Stack
