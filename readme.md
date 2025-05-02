@@ -87,14 +87,14 @@ The enhanced version introduces more advanced operational model using an Arrays 
 Both MVP and Enhanced Calculators javascript codes has been written by myself, no reference to **AI generated codes** at all, I've refered to the below references from MDN and W3School only, 
 All comments written line by line extensivly for each line of code.
 
-The only part I've used AI-Generated content is for this **readme.md ** file content, I asked the GPT to provide me with the standard structure of the readme.md to remind of the **Markdown notations.** as I've used them previosuly.
+The only part I've used AI-Generated content is for this **readme.md** file content, I asked the GPT to provide me with the standard structure of the readme.md to remind of the **Markdown notations.** as I've used them previosuly.
 ---
 
 ## References
 
 * [MDN: eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 * [MDN: parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
-* [MDN: slice()]([https://www.w3schools.com/cssref/css_selectors.asp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice))
+* [MDN: slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
 * [W3Schools: CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
 
 ---
