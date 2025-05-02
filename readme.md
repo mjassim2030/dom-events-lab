@@ -16,9 +16,7 @@ The MVP version features:
 * Supports simple two-number operations (e.g., `4 + 5`).
 * Stores the result and allows further operations using the result.
 * Provides basic input validation and display formatting.
-
-> This version is suitable uses DOM manipulation fundamentals.
-
+  
 ---
 
 ### Enhanced Calculator
@@ -82,10 +80,10 @@ The enhanced version introduces more advanced operational model using an Arrays 
 
 ---
 
-## References
+## 100% Manually Written Code – No AI or Plagiarized Code
 
 Both MVP and Enhanced Calculators javascript codes has been written by myself, no reference to **AI generated codes** at all, I've refered to the below references from MDN and W3School only, 
-All comments written line by line extensivly for each line of code.
+All comments written line by line extensivly for each line of code manually.
 
 The only part I've used AI-Generated content is for this file content **readme.md**, I asked the GPT to provide me with the standard structure of the readme.md to remind of the **Markdown notations** as I've used them long time ago.
 
